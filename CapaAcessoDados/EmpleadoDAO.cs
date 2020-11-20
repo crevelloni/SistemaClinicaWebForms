@@ -23,7 +23,7 @@ namespace CapaAcessoDados
             return daoEmpleado;
         }
         #endregion
-        public Empleado AcessoSistema(string user, string pass)
+        public Empleado AcessoSistema(String user, String pass)
         {
             SqlConnection conexion = null;
             SqlCommand cmd = null;
@@ -34,8 +34,8 @@ namespace CapaAcessoDados
                 conexion = Conexion.getInstance().ConexionBD();
                 cmd = new SqlCommand("spAcessoSistema", conexion);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@prmUser", user);
-                cmd.Parameters.AddWithValue("@prmPass", pass);
+                cmd.Parameters.AddWithValue("@pmrUser", user);
+                cmd.Parameters.AddWithValue("@pmrPass", pass);
                 conexion.Open();
                 dr = cmd.ExecuteReader();
                 if (dr.Read())

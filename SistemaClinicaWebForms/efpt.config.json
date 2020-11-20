@@ -1,0 +1,77 @@
+﻿{
+   "ContextClassName": "Quediaeh_CorretoraContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "CapaApresentacao",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Aseguradora]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cita]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DetalleAseguradora]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Diagnostico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DiaSemana]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Empleado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Especialidad]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoriaClinica]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Hora]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HorarioAtencion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Medico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Paciente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEmpleado]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
