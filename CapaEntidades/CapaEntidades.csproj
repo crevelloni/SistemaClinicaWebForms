@@ -41,8 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TipoEmpleado.cs" />
-    <Compile Include="Empleado.cs" />
+    <Compile Include="Models\Aseguradora.cs" />
+    <Compile Include="Models\Cita.cs" />
+    <Compile Include="Models\DetalleAseguradora.cs" />
+    <Compile Include="Models\Diagnostico.cs" />
+    <Compile Include="Models\DiaSemana.cs" />
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Especialidad.cs" />
+    <Compile Include="Models\HistoriaClinica.cs" />
+    <Compile Include="Models\Hora.cs" />
+    <Compile Include="Models\HorarioAtencion.cs" />
+    <Compile Include="Models\Medico.cs" />
+    <Compile Include="Models\Paciente.cs" />
+    <Compile Include="Models\Quediaeh_CorretoraContext.cs" />
+    <Compile Include="Models\TipoEmpleado.cs" />
+    <Compile Include="ModelView\PacienteModelView.cs" />
+    <Compile Include="ModelView\TipoEmpleadoModelView.cs" />
+    <Compile Include="ModelView\EmpleadoModelView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

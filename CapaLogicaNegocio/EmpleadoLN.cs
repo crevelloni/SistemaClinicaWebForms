@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaEntidades;
 using CapaAcessoDados;
+using CapaApresentacao.Models;
 
 namespace CapaLogicaNegocio
 {

@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="content-header">
-        <h1 style="text-align: center">Cadastro de pacientes </h1>      
+        <h1 style="text-align: center">Cadastro de pacientes </h1>
     </section>
     <section class="content">
         <div class="row">
@@ -69,18 +69,44 @@
                 </div>
             </div>
         </div>
-        <div style="text-align: center">
+        <div align="center">
             <table>
                 <tr>
                     <td>
-                        <asp:Button ID="btnCadastrar" runat="server" CssClass="btn btn-primary" Text="Cadastrar" />
+                        <asp:Button ID="btnCadastrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Cadastrar" />
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     <td>
-                        <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-danger" Text="Cancelar" />
+                        <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-danger" Width="200px" Text="Cancelar" />
                     </td>
                 </tr>
             </table>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <h3 class="box-title">Lista de Pacientes</h3>
+                    </div>
+                    <div class="box-body table-responsive">
+                        <table id="tbl_Pacientes" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nome</th>
+                                    <th>Sobrenome</th>
+                                    <th>Sexo</th>
+                                    <th>Idade</th>
+                                    <th>Endereço</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </asp:Content>

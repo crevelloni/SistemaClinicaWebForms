@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaEntidades;
 using System.Data;
+using CapaApresentacao.Models;
 
 namespace CapaAcessoDados
 {
@@ -41,9 +42,10 @@ namespace CapaAcessoDados
                 if (dr.Read())
                 {
                     objEmpleado = new Empleado();
-                    objEmpleado.ID = Convert.ToInt32(dr["idEmpleado"].ToString());
+                    objEmpleado.IdEmpleado = Convert.ToInt32(dr["idEmpleado"].ToString());
                     objEmpleado.Usuario = dr["Usuario"].ToString();
                     objEmpleado.Clave = dr["Clave"].ToString();
+
                 }
             }
             catch(Exception ex)

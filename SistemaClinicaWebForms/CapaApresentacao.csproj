@@ -380,6 +380,7 @@
     <Content Include="js\plugins\sparkline\jquery.sparkline.min.js" />
     <Content Include="js\plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="js\plugins\timepicker\bootstrap-timepicker.min.js" />
+    <Content Include="js\paciente.js" />
     <Content Include="Login.aspx" />
     <Content Include="PainelGeral.aspx" />
     <Content Include="Web.config" />
@@ -406,20 +407,6 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Aseguradora.cs" />
-    <Compile Include="Models\Cita.cs" />
-    <Compile Include="Models\DetalleAseguradora.cs" />
-    <Compile Include="Models\Diagnostico.cs" />
-    <Compile Include="Models\DiaSemana.cs" />
-    <Compile Include="Models\Empleado.cs" />
-    <Compile Include="Models\Especialidad.cs" />
-    <Compile Include="Models\HistoriaClinica.cs" />
-    <Compile Include="Models\Hora.cs" />
-    <Compile Include="Models\HorarioAtencion.cs" />
-    <Compile Include="Models\Medico.cs" />
-    <Compile Include="Models\Paciente.cs" />
-    <Compile Include="Models\Quediaeh_CorretoraContext.cs" />
-    <Compile Include="Models\TipoEmpleado.cs" />
     <Compile Include="PainelGeral.aspx.cs">
       <DependentUpon>PainelGeral.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
